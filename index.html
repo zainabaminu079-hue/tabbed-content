@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Content Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tabs-container">
+        <!-- Tab Headers -->
+        <div class="tabs-header">
+            <button class="tab-btn active" data-target="overview">Overview</button>
+            <button class="tab-btn" data-target="features">Features</button>
+            <button class="tab-btn" data-target="contact">Contact</button>
+        </div>
+
+        <!-- Tab Content Panes -->
+        <div class="tabs-content">
+            <div id="overview" class="content-pane active">
+                <h2>Welcome to Project 3</h2>
+                <p>This is the overview section. Tabbed navigation is great for saving space on mobile screens and organizing structured data efficiently.</p>
+            </div>
+            
+            <div id="features" class="content-pane">
+                <h2>App Features</h2>
+                <ul>
+                    <li>Dynamic visibility switching using JavaScript</li>
+                    <li>Clean, responsive interface for phone screens</li>
+                    <li>Smooth opacity fade-in transition animations</li>
+                    <li>Clear visual indicators for active states</li>
+                </ul>
+            </div>
+            
+            <div id="contact" class="content-pane">
+                <h2>Get In Touch</h2>
+                <p>Have questions about this project? Connect with us anytime through our developer channels or repository discussion page.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
